@@ -9,10 +9,19 @@ h2{
    @apply flex justify-center text-3xl mt-20 mb-5 px-10 border-t pt-4 border-black
 }
 h3{
-   @apply font-bold text-xl uppercase mt-3
+   @apply font-bold text-xl uppercase mt-4
+}
+h4{
+   @apply font-bold  uppercase mt-3
 }
 p{
    @apply mb-2 text-lg
+}
+a{
+   @apply underline text-sm text-blue-500
+}
+img{
+   @apply max-w-[200px]
 }
 @tailwind components;
 @tailwind utilities;

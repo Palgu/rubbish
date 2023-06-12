@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>House rules</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="./app.css" rel="stylesheet">
+<script type="text/javascript">
+  var userLang = navigator.language || navigator.userLanguage;
+  if(userLang.slice(0, 2) == 'en'){
+     window.location.replace("./rules-en.html");
+  } else if(userLang.slice(0, 2) == 'es'){
+     window.location.replace("./rules-es.html");
+  }
+  else if(userLang.slice(0, 2) == 'de'){
+     window.location.replace("./rules-de.html");
+  }
+  else if(userLang.slice(0, 2) == 'fr'){
+     window.location.replace("./rules-fr.html");
+  }
+  else if(userLang.slice(0, 2) == 'it'){
+     window.location.replace("./rules-it.html");
+  }else{
+     window.location.replace("./index.html");
+  }
+</script>
+</head>
+
+<body>
+   <h1 class="text-center">House rules</h1>
+   <section class="center-page text-center h-screen flex items-center justify-center text-3xl">    
+      <a class="p-2" href="rules-it.html">IT</a>|
+      <a class="p-2" href="rules-en.html">EN</a>|
+      <a class="p-2" href="rules-fr.html">FR</a>|
+      <a class="p-2" href="rules-de.html">DE</a>|
+      <a class="p-2" href="rules-es.html">ES</a>
+   </section>
+</body>
+</html>

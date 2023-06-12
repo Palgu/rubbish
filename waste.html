@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HOW TO CORRECTLY SEPARATE OUR WASTE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="./app.css" rel="stylesheet">
+<script type="text/javascript">
+  var userLang = navigator.language || navigator.userLanguage;
+  if(userLang.slice(0, 2) == 'en'){
+     window.location.replace("./waste-en.html");
+  } else if(userLang.slice(0, 2) == 'es'){
+     window.location.replace("./waste-es.html");
+  }
+  else if(userLang.slice(0, 2) == 'de'){
+     window.location.replace("./waste-de.html");
+  }
+  else if(userLang.slice(0, 2) == 'fr'){
+     window.location.replace("./waste-fr.html");
+  }
+  else if(userLang.slice(0, 2) == 'it'){
+     window.location.replace("./waste-it.html");
+  }else{
+     window.location.replace("./waste.html");
+  }
+</script>
+</head>
+
+<body>
+   <h1 class="text-center text-md">House Rules</h1>
+   <h1 class="text-center text-md">How to correctly separate your waste</h1>
+   <h1 class="text-center text-md"><a class="p-2" href="index-it.html">Suggestions</a></h1>
+   <section class="center-page text-center h-screen flex items-center justify-center text-3xl">    
+      <a class="p-2" href="waste-it.html">IT</a>|
+      <a class="p-2" href="waste-en.html">EN</a>|
+      <a class="p-2" href="waste-fr.html">FR</a>|
+      <a class="p-2" href="waste-de.html">DE</a>|
+      <a class="p-2" href="waste-es.html">ES</a>
+   </section>
+</body>
+</html>
