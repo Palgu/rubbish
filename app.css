@@ -660,10 +660,6 @@ img {
   height: 100vh;
 }
 
-.max-w-screen-sm {
-  max-width: 640px;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -682,10 +678,6 @@ img {
 
 .whitespace-normal {
   white-space: normal;
-}
-
-.whitespace-break-spaces {
-  white-space: break-spaces;
 }
 
 .p-2 {
