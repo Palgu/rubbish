@@ -3,6 +3,8 @@
 <head>
 <title>Raccolta differenziata</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="./app.css" rel="stylesheet">
 <style>
    body{
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -43,10 +45,31 @@
       font-size:30px;
    }
 </style>
+
+<script type="text/javascript">
+   var userLang = navigator.language || navigator.userLanguage;
+   alert(userLang); 
+   if(userLang.slice(0, 2) == 'en'){
+      window.location.replace("./index-en.html");
+   } else if(userLang.slice(0, 2) == 'es'){
+      window.location.replace("./index-es.html");
+   }
+   else if(userLang.slice(0, 2) == 'de'){
+      window.location.replace("./index-de.html");
+   }
+   else if(userLang.slice(0, 2) == 'fr'){
+      window.location.replace("./index-fr.html");
+   }
+   else if(userLang.slice(0, 2) == 'it'){
+      window.location.replace("./index-it.html");
+   }else{
+      window.location.replace("./index.html");
+   }
+   </script>
 </head>
 
 <body>
-   <section class="center-page">
+   <section class="center-page text-right">
       <a href="index-it.html">IT</a>|<a href="index-en.html">EN</a>|<a href="index-fr.html">FR</a>|<a href="index-de.html">DE</a>|<a href="index-es.html">ES</a>
    </section>
 </body>
