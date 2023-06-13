@@ -680,6 +680,11 @@ img {
   white-space: normal;
 }
 
+.bg-\[\#747DF7\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(116 125 247 / var(--tw-bg-opacity));
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -708,6 +713,11 @@ img {
 
 .italic {
   font-style: italic;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
